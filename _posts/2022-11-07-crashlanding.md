@@ -3,6 +3,7 @@ layout: post
 title: Crash landing!
 description: Where to next?
 image: /assets/images/crash.jpg
+date: 2022-11-08 01:46:00 -0500
 ---
 
 ### Crash!
