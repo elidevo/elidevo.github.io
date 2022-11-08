@@ -1,7 +1,7 @@
 ---
-title: Landing
-layout: landing
-description: "There's not much to see here yet.."
+title: Blog
+layout: blog
+description: "All of my blog posts in a colorful grid."
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -69,7 +69,7 @@ nav-menu: true
 		</div>
 	</section>
 </section>
--->
+
 
 <section id="three">
 	<div class="inner">
@@ -85,6 +85,10 @@ nav-menu: true
 	</div>
 </section>
 
-{% include tiles.html %}
+-->
+<div class="box">
+	{% include tiles.html %}
+</div>
+
 
 </div>

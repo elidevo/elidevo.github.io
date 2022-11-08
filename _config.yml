@@ -3,7 +3,7 @@ title: elidevo
 subtitle: the blog
 email: N/A
 description: A 23 year old, passionate and dedicated software developer with a love for security and finding software solutions for modern problems. Team player, driven, and a great communicator. Familiar with many technologies, technologically literate, and familiar with the agile process. Aware of the impacts space and time complexity has on performance. I am always looking to gain industry knowledge.
-baseurl: "/" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: http://elidevo.github.io # the base hostname & protocol for your site
 author: elidevo
 street_address: N/A
@@ -15,7 +15,7 @@ phone: N/A
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 66
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
