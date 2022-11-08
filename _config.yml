@@ -4,7 +4,7 @@ subtitle: the blog
 email: N/A
 description: A 23 year old, passionate and dedicated software developer with a love for security and finding software solutions for modern problems. Team player, driven, and a great communicator. Familiar with many technologies, technologically literate, and familiar with the agile process. Aware of the impacts space and time complexity has on performance. I am always looking to gain industry knowledge.
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: http://elidevo.github.io # the base hostname & protocol for your site
+url: https://elidevo.github.io # the base hostname & protocol for your site
 author: elidevo
 street_address: N/A
 #city: N/A
