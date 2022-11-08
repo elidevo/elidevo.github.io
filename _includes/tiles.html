@@ -11,10 +11,12 @@
       <img src="{{ site.url }}/{{ tile.image }}" alt="{{ tile.title }}" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+      <h3><a href="{{ tile.url | relative_url }}" class="link">{{ tile.title }}</a></h3>
       <p>{{ tile.description }}</p>
       <br>
-      <p><i>{{  tile.content | truncate:250 | strip_html | newline_to_br  }}</i></p>
+      <p><i>{{tile.content | truncate:250 | strip_html | newline_to_br}}</i></p>
+      <br>
+      <p>Posted: {{ tile.date }} </p>
     </header>
   </article>
   {% endfor %}
