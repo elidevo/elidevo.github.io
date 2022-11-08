@@ -17,7 +17,7 @@
 		<br>
 		<p><i>{{tile.content | truncate:250 | strip_html | newline_to_br}}</i></p>
 		<br>
-		<p>Posted: {{ tile.date | date: "%b %d, %Y @ %I:%m%p" }}</p>
+		<p>Posted: {{ tile.date | date: "%b %d, %Y @ %I:%M%p" }}</p>
 	  </header>
 	</article>
   {% endfor %}

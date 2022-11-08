@@ -5,6 +5,7 @@
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ site.url | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
+		<a href="/blog.html">Blog</a>
 		<a href="/all_posts.html">All Posts</a>
 	</nav>
 </header>
@@ -23,7 +24,7 @@
 		    {% endif %}
 		{% endfor %}
 	</ul>
-	
+
 	<ul class="actions vertical">
 		<li><a href="{{site.url}}/2022/11/07/crashlanding.html" class="button special fit">Get Started</a></li>
 	</ul>
