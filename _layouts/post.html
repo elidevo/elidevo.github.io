@@ -25,6 +25,16 @@
 			{% if page.image %}<span class="image main"><img src="{{ site.url }}/{{ page.image }}" alt="" /></span>{% endif %}
 			{{ content }}
 		</div>
+
+		<ul class="actions horizontal">
+			{% if page.previous != nil %}
+				<li><a href="{{page.previous.url}}" class="button fit">Previous Post</a></li>
+			{% endif %}
+
+			{% if page.next != nil %}
+				<li><a href="{{page.next.url}}" class="button fit">Next Post</a></li>
+			{% endif %}
+		</ul>
 	</div>
 </section>
 
