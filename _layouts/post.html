@@ -6,42 +6,48 @@
 -->
 <html>
 
-{% include head.html %}
+	{% include head.html %}
 
-<body>
+	<body>
 
-    {% include header.html %} 
+		{% include header.html %} 
 
-<!-- Main -->
-<div id="main" class="alt">
+		<!-- Main -->
+		<div id="main" class="alt">
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<div class="box">
-			<header class="major">
-				<h1>{{ page.title }}</h1>
-			</header>
-			{% if page.image %}<span class="image main"><img src="{{ site.url }}/{{ page.image }}" alt="" /></span>{% endif %}
-			{{ content }}
+			<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<div class="box">
+						<header class="major">
+							<h1>{{ page.title }}</h1>
+						</header>
+						
+						{% if page.image %}
+							<span class="image main">
+								<img src="{{ site.url }}/{{ page.image }}" alt="" />
+							</span>
+						{% endif %}
+
+						{{ content }}
+					</div>
+
+					<ul class="actions horizontal">
+						{% if page.previous != nil %}
+							<li><a href="{{page.previous.url}}" class="button fit">Previous Post</a></li>
+						{% endif %}
+
+						{% if page.next != nil %}
+							<li><a href="{{page.next.url}}" class="button fit">Next Post</a></li>
+						{% endif %}
+					</ul>
+				</div>
+			</section>
+
 		</div>
 
-		<ul class="actions horizontal">
-			{% if page.previous != nil %}
-				<li><a href="{{page.previous.url}}" class="button fit">Previous Post</a></li>
-			{% endif %}
+		{% include footer.html %}
 
-			{% if page.next != nil %}
-				<li><a href="{{page.next.url}}" class="button fit">Next Post</a></li>
-			{% endif %}
-		</ul>
-	</div>
-</section>
-
-</div>
-
-    {% include footer.html %}
-
-</body>
+	</body>
 
 </html>
