@@ -3,7 +3,7 @@ layout: post
 title: Juicebot!
 description: The next steps?
 image: /assets/images/pic07.jpg
-date: 2022-11-31 22:32:00 -0500
+date: 2022-12-01 22:32:00 +0500
 ---
 
 ### Juice!

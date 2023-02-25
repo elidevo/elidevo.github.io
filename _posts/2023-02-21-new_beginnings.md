@@ -3,7 +3,7 @@ layout: post
 title: A Data Project
 description: A new, practical, and useful portfolio project
 image: /assets/images/jungle.bmp
-date: 2023-02-24 18:52:00 -0500
+date: 2023-02-24 18:52:00 +0500
 ---
 
 ### A NEW PROJECT, NEW DATA, AND THE PLANNING PHASE!
